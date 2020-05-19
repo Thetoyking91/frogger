@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="(@hja~9gO5sNeXI1M@,c">mySprite</variable><variable id="T}UE)qnjmNpf,E)h8]kX">Frog</variable><variable type="KIND_SpriteKind" id="e*{0eie:n5h/t6~3T!d|">Player</variable><variable type="KIND_SpriteKind" id="4SeUda2akj?sYFM:n_1t">Projectile</variable><variable type="KIND_SpriteKind" id="lV:c{)=jNDbB`}+hRHKH">Food</variable><variable type="KIND_SpriteKind" id="rDW*+y1XPp}`=?P-bL!$">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="T}UE)qnjmNpf,E)h8]kX">Frog</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . 7 7 7 7 . . . . . . . . . 
+. . 7 7 7 7 7 7 7 . . . . . . . 
+. 7 7 7 7 7 7 7 f 7 7 . . . . . 
+. 7 7 7 7 7 7 7 7 7 7 7 . . . . 
+. 7 7 7 7 7 7 7 7 7 7 . . . . . 
+. . 7 7 7 7 7 7 7 . . . . . . . 
+. . . 7 7 7 7 . . . . . . . . . 
+. . . 7 . . 7 . . . . . . . . . 
+. . . 7 . . 7 . . . . . . . . . 
+. . . 7 7 . 7 7 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" x="130" y="190"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="T}UE)qnjmNpf,E)h8]kX">Frog</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">0</field></shadow></value><value name="y"><shadow type="positionPicker"/><block type="math_arithmetic"><field name="OP">MINUS</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.y</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="T}UE)qnjmNpf,E)h8]kX">Frog</field></block></value></block></value><value name="B"><shadow type="math_number"><field name="NUM">8</field></shadow></value></block></value></block></statement></block></xml>
